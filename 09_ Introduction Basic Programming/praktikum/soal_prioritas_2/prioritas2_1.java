@@ -36,4 +36,3 @@ public class prioritas2_1 {
         }
     }
 }
-
