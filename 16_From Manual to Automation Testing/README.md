@@ -1,0 +1,5 @@
+# (16) From Manual to Automation Testing
+
+- Kenapa melakukan manual testing? Karena untuk exploration (Mengeksplorasi seluruh fitur dari aplikasi sehingga testing menjaid lebih lengkap), velocity (manual testing bisajadi lebih cepat. misalnya ketika ada perubahan kecil yang harus ditesting), dan usability (menguji apakah softwarenya sudah bisa digunakan atau belum)
+- Kenapamelakukan automation testing? Karena flexible (bisa digunakan untuk setiap platform), velocity (lebih cepat untuk jumlah testcase yang banyak), coverage (melihat berapa persen fitur yang sudah diuji), dan error-avoidance (meminimalisir error)
+- Best practice dalam automation testing yakni: Scope automationnya jelas, memilih tools yang tepat sesuai dengan jenis testingnya, scriptnya harus sesuai standar bahasa pemrogramannyam, mengukur metrik keberhasilannya berapa
