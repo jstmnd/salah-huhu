@@ -21,3 +21,12 @@ Feature: Cart
     And I input valid password
     And I click login button
     Then I cannot add item to the cart
+
+  @Problem-user
+  Scenario: As a problem user I cannot remove products from cart
+    When I input problem username
+    And I input valid password
+    And I click login button
+    And I am on the products page
+    And I add item to the cart
+    Then I cannot remove it

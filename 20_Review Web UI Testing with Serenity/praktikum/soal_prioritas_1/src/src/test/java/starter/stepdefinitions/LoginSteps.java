@@ -42,6 +42,11 @@ public class LoginSteps {
         Assertions.assertTrue(productsPage.validateOnProductsPage());
     }
 
+    @When("I input glitch username")
+    public void inputGlitchUsername() {
+        loginPage.inputUsername("performance_glitch_user");
+    }
+
     @When("I input locked username")
     public void inputLockedUsername() {
         loginPage.inputUsername("locked_out_user");

@@ -35,4 +35,14 @@ public class CartSteps {
     public void cannotAddItemToTheCart() {
         productsPage.clickAnotherItemToCart();
     }
+
+    @When("I input problem username")
+    public void inputProblemUsername() {
+        loginPage.inputUsername("problem_user");
+    }
+
+    @Then("I cannot remove it")
+    public void iCannotRemoveIt() {
+        assert productsPage.isRemoveButtonDisplayed();
+    }
 }

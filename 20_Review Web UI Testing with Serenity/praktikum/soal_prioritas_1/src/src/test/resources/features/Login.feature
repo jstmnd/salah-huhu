@@ -14,6 +14,13 @@ Feature: Login
     And I click login button
     Then I am on the products page
 
+  @Glitch-user
+  Scenario: As a user I can login with glitch user account
+    When I input glitch username
+    And I input valid password
+    And I click login button
+    Then I am on the products page
+
   @Locked-user
   Scenario: As a locked user I cannot access product page
     When I input locked username

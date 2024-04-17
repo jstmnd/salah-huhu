@@ -21,6 +21,10 @@ public class ProductsPage extends PageObject {
         return By.className("shopping_cart_badge");
     }
 
+    private By removeButton() {
+        return By.id("remove-sauce-labs-backpack");
+    }
+
     @Step
     public boolean validateOnProductsPage() {
         return $(title()).isDisplayed();
@@ -44,5 +48,10 @@ public class ProductsPage extends PageObject {
     @Step
     public boolean validateCartCounter() {
         return $(cartCounter()).getText().equals("1");
+    }
+
+    @Step
+    public boolean isRemoveButtonDisplayed() {
+        return $(removeButton()).isDisplayed();
     }
 }
