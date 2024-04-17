@@ -1,0 +1,5 @@
+# (23) Post Processor & Understanding Jmeter Results
+
+- Post Processors adalah elemen rencana pengujian yang digunakan untuk melakukan tindakan tertentu setelah pemrosesan permintaan sampel. Pemroses pos ini biasanya digunakan untuk mengekstraksi nilai-nilai tertentu dari respons permintaan sampel, misalnya kita dapat mengekstraksi nilai variabel sesi dari permintaan HTTP dan meneruskan nilai variabel sesi ke permintaan berikutnya.
+- Tujuannya untuk mengolah data yang terdapat pada response data dengan menggunakan JSON Extractor. Proses request tersebut akan mengekstrak value yang didapatkan dari hasil mengakses halaman sebuah web, seperti data-data pada JSON. Pada JSON Extractor terdapat Json Path digunakan untuk ekstrak isi dari json response dari nilai yang terdapat dari data JSON yang dihasilkan dari respons saat kita melakukan request.
+- Melakukan praktek langsung penerapan post processor menggunakan JMeter.

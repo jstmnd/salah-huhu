@@ -1,0 +1,5 @@
+# (20) Review Web UI Testing with Serenity
+
+- Serenity adalah open source BDD Framework yang membantu membuat penulisan automated acceptance test yang terstruktur dengan baik. Arsitektur Serenity terdiri dari Requirements, Tests, Steps, Pages, dan Reports.
+- Step dalam menggunakan BDD Cucumber yakni: Write Story menggunakan syntax gherkin (Given, When, Then), Configure Stories, Browser Interaction, Run Stories, View Reports
+- Untuk menulis test menggunakan Serenity Cucumber, yang pertama dilakukan adalah membuat file stories untuk mendefinisikan test scenario, selanjutnya membuat file test class untuk automate storynya, selanjutnya membuat file test steps untuk mendefinisikan skenario stepsnya, lalu membuat file page objectnya untuk interaksi dengan browser yang dituju. Dan yang terakhir adalah menjalankan testnya dan melihat reportnya.

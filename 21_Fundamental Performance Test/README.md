@@ -1,0 +1,5 @@
+# (21) Fundamental Performance Test
+
+- Performance test merupakan teknik non functional testing untuk menentukan parameter sistem dalam hal responsif dan stabilitas dibawah berbagai beban (load) kerja. Performance testing mengukur kualitas atribut dari sistem seperti stabilitas, ketahanan (reliability) dan penggunaan sumber daya.
+- Terdapat beberapa jenis performance testing, yakni load testing, stress testing, spike testing, dan soak testing. Load testing adalah pengujian yang dilakukan untuk memahami perilaku sistem dalam keadaan beban tertentu. Stress testing dilakukan untuk mengamati kemampuan dan kestabilan sistem pada saat kondisi ekstrem. Spike testing kurang lebih sama seperti stress test, namun kenaikan langsung menuju melebihi puncak dilakukan dalam waktu singkat. Soak testing dilakukan untuk mengetahui reliability ketika dalam tekanan di bawah puncak dalarn jangka panjang (>=1 jam).
+- Langkah yang harus dilakukan dalam performance test yakni membuat test plan, membuat script test, melakukan performance test, menganalisa hasil performance test.

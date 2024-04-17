@@ -1,0 +1,5 @@
+# (19) Web Programming
+
+- HTML (Hypertext Markup Language) merupakan standar yang luas digunakan untuk menampilkan halaman web. Contohnya untuk membuat struktur halaman web, mengendalikan tampilan dan isi dari halaman web, membuat tabel dengan tag HTML Table, membuat form HTML, membuat gambar dengan canvas, dan mempublikasikan halaman web secara online.
+- CSS (Cascading Style Sheets) digunakan untuk memberikan gaya atau menghias halaman web, seperti warna, ukuran, font, latar belakang, lebar, tinggi, dan lainnya. Selain itu CSS juga dapat digunakan untuk mengatur posisi pada halaman web dengan menggunakan float, align, display, position, dll.
+- Mempelajari cara menambahkan file CSS ke dalam HTML dan CSS Selector (seperti ID dan Class), CSS Grouping (mengelompokkan beberapa selector dalam satu deklarasi style), CSS Font (style font yang ada dalam CSS), CSS Margin & Padding (untuk membuat ruang di sekitar elemen), CSS Background (background style yang ada di CSS), CSS Link Event (seperti :hover, :active, :visited), CSS Display (seperti block, inline-block, dan none), dan CSS Table (untuk membuat style pada elemen tabel HTML)
