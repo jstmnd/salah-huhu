@@ -21,14 +21,6 @@ public class LoginPage extends PageObject {
         return By.xpath("//h3[@data-test='error']");
     }
 
-//    private By addToCartButton() {
-//        return By.xpath("//button[@id='add-to-cart-sauce-labs-backpack']");
-//    }
-
-//    private By removeButton() {
-//        return By.xpath("//button[@id='remove-sauce-labs-backpack']");
-//    }
-
     @Step
     public boolean validateOnLoginPage() {
         return $(loginButton()).isDisplayed();
