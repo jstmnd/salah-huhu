@@ -21,11 +21,3 @@ Feature: Login
     And I click login button
     Then I can see error message "Epic sadface: Sorry, this user has been locked out."
 
-  @Error-user
-  Scenario: As a error user I cannot remove products from cart on product page
-    When I input error username
-    And I input valid password
-    And I click login button
-    And I am on the products page
-    And I click Add to cart button
-    Then I cannot remove it

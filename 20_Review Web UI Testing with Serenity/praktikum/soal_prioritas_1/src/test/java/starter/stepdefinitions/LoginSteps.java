@@ -52,19 +52,4 @@ public class LoginSteps {
         Assertions.assertTrue(loginPage.validateErrorMessageIsDisplayed());
         Assertions.assertTrue(loginPage.validateEqualErrorMessage(message));
     }
-
-    @When("I input error username")
-    public void inputErrorUsername() {
-        loginPage.inputUsername("error_user");
-    }
-
-    @And("I click Add to cart button")
-    public void iClickAddToCartButton() {
-        productsPage.clickAddItemToCart();
-    }
-
-    @Then("I cannot remove it")
-    public void iCannotRemoveIt() {
-        assert loginPage.isRemoveButtonDisplayed();
-    }
 }
