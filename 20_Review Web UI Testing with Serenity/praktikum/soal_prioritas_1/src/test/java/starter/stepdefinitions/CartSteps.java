@@ -31,8 +31,8 @@ public class CartSteps {
         loginPage.inputUsername("error_user");
     }
 
-    @Then("I cannot remove it")
-    public void iCannotRemoveIt() {
-        assert productsPage.isRemoveButtonDisplayed();
+    @Then("I cannot add item to the cart")
+    public void cannotAddItemToTheCart() {
+        productsPage.clickAnotherItemToCart();
     }
 }

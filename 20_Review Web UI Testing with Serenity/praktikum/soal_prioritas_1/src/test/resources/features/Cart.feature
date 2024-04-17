@@ -16,9 +16,8 @@ Feature: Cart
     Then the item is added to the cart
 
   @Cannot-add
-  Scenario: As a user I cannot remove products from cart
+  Scenario: As a user I cannot add item to the cart
     When I input error username
     And I input valid password
     And I click login button
-    And I add item to the cart
-    Then I cannot remove it
+    Then I cannot add item to the cart

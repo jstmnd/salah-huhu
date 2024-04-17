@@ -13,12 +13,12 @@ public class ProductsPage extends PageObject {
         return By.id("add-to-cart-sauce-labs-backpack");
     }
 
-    private By cartCounter() {
-        return By.className("shopping_cart_badge");
+    private By addAnotherToCartButton() {
+        return By.id("add-to-cart-sauce-labs-bolt-t-shirt");
     }
 
-    private By removeButton() {
-        return By.xpath("//button[@id='remove-sauce-labs-backpack']");
+    private By cartCounter() {
+        return By.className("shopping_cart_badge");
     }
 
     @Step
@@ -32,6 +32,11 @@ public class ProductsPage extends PageObject {
     }
 
     @Step
+    public void clickAnotherItemToCart() {
+        $(addAnotherToCartButton()).click();
+    }
+
+    @Step
     public boolean validateCartCounterIsDisplayed() {
         return $(cartCounter()).isDisplayed();
     }
@@ -39,10 +44,5 @@ public class ProductsPage extends PageObject {
     @Step
     public boolean validateCartCounter() {
         return $(cartCounter()).getText().equals("1");
-    }
-
-    @Step
-    public boolean isRemoveButtonDisplayed() {
-        return findAll(removeButton()).size() > 0 && $(removeButton()).isDisplayed();
     }
 }

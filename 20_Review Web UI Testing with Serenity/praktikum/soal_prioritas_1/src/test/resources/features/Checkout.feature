@@ -22,8 +22,8 @@ Feature: Checkout
     Then I click finish button
 
   @Cannot-checkout
-  Scenario: As a user I can checkout item from cart
-    When I input valid username
+  Scenario: As a user I cannot checkout item from cart
+    When I input error username
     And I input valid password
     And I click login button
     And I add item to the cart
